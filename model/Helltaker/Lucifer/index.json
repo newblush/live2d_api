@@ -1,4 +1,5 @@
 {
+	"type": "Live2D Model Setting",
 	"name": "lucifer",
 	"model": "lucifer.moc",
 	"textures": [
@@ -7,7 +8,26 @@
 	"layout": {
 		"center_x": 0,
 		"center_y": 0,
-		"width": 2.0
+		"width": 2.2,
+		"height": 2.0
+	},
+	"hit_areas_custom": {
+		"head_x": [
+			-0.35,
+			0.6
+		],
+		"head_y": [
+			0.2,
+			-0.2
+		],
+		"body_x": [
+			-0.3,
+			-0.25
+		],
+		"body_y": [
+			0.3,
+			-0.3
+		]
 	},
 	"motions": {
 		"idle": [
@@ -15,6 +35,20 @@
 				"file": "motions/breath.mtn",
 				"fade_in": 100,
 				"fade_out": 100
+			}
+		],
+		"flick_head": [
+			{
+				"file": "motions/blush.mtn",
+				"fade_in": 500,
+				"fade_out": 200
+			}
+		],
+		"tap_body": [
+			{
+				"file": "motions/blush.mtn",
+				"fade_in": 500,
+				"fade_out": 200
 			}
 		]
 	}
