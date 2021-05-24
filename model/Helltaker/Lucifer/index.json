@@ -1,0 +1,21 @@
+{
+	"name": "lucifer",
+	"model": "lucifer.moc",
+	"textures": [
+		"lucifer.1024/texture_00.png"
+	],
+	"layout": {
+		"center_x": 0,
+		"center_y": 0,
+		"width": 2.0
+	},
+	"motions": {
+		"idle": [
+			{
+				"file": "motions/breath.mtn",
+				"fade_in": 100,
+				"fade_out": 100
+			}
+		]
+	}
+}

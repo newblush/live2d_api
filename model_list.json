@@ -5,11 +5,13 @@
         [
             "ShizukuTalk/shizuku-48",
             "ShizukuTalk/shizuku-pajama"
-        ]
+        ],
+        "Helltaker/Lucifer"
     ],
     "messages": [
         "来自 Bilibili Live 的 22 哦 ~",
         "来自 Bilibili Live 的 33 的说",
-        "Shizuku Talk ！这里是 Shizuku ~"
+        "Shizuku Talk ！这里是 Shizuku ~",
+        "Luciferです"
     ]
 }
